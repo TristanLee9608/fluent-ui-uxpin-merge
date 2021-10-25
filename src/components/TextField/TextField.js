@@ -247,7 +247,7 @@ TextField.defaultProps = {
   label: "Basic Text Field",
   textValue: "",
   placeholder: "Enter some text",
-  borderType: borderFramed,
+  borderType: borderUnderlined,
   readOnly: false,
   disabled: false,
   isPassword: false,
