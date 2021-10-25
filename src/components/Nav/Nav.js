@@ -16,8 +16,8 @@ icon(StackedColumnChart2Fill) 공통 업무`;
 
 const defaultTopPadding = 24;
 
-const defaultStyledBgColor = "#06b6d4";
-const defaultStyledBorderColor = '#6d28d9';
+const defaultStyledBgColor = "#467ce0";
+const defaultStyledBorderColor = '#e6e6e6';
 
 
 
