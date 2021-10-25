@@ -8,16 +8,16 @@ import * as UXPinParser from '../_helpers/UXPinParser';
 
 //Default nav items to populate the control with.
 //Leave these left aligned as they show up in UXPin exactly as-is. 
-const defaultNavItems = `icon(ViewDashboard) Overview
-icon(Build) Builds
-icon(PlugConnected) Pipelines
-icon(Processing) Production
-icon(StackedColumnChart2Fill) Metrics`;
+const defaultNavItems = `icon(ViewDashboard) 주문 관리
+icon(Build) 수금 관리
+icon(PlugConnected) 견적 관리
+icon(Processing) 갱신 관리
+icon(StackedColumnChart2Fill) 공통 업무`;
 
 const defaultTopPadding = 24;
 
-const defaultStyledBgColor = "#F5F7FA";
-const defaultStyledBorderColor = '#CBD2D6';
+const defaultStyledBgColor = "#06b6d4";
+const defaultStyledBorderColor = '#e5e5e5';
 
 
 
