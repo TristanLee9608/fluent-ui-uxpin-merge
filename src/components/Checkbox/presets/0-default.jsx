@@ -3,6 +3,6 @@ import Checkbox from '../Checkbox';
 
 
 export default (
-  <Checkbox uxpId="checkbox1" />
+  <Checkbox uxpId="checkbox1" style={{width: '16px', height: '16px'}} />
 );
 

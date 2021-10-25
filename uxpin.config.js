@@ -58,7 +58,7 @@ module.exports = {
           //'src/components/ChoiceGroup/ChoiceGroup.js',
           //'src/components/ColorPicker/ColorPicker.js',
           //'src/components/ComboBox/ComboBox.js',
-          //'src/components/DatePicker/DatePicker.js',
+          'src/components/DatePicker/DatePicker.js',
           'src/components/Dropdown/Dropdown.js',
           //'src/components/GroupButton/GroupButton.js',
           //'src/components/Rating/Rating.js',
