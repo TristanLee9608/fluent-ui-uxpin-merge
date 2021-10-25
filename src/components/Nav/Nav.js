@@ -17,7 +17,7 @@ icon(StackedColumnChart2Fill) 공통 업무`;
 const defaultTopPadding = 24;
 
 const defaultStyledBgColor = "#06b6d4";
-const defaultStyledBorderColor = '#e5e5e5';
+const defaultStyledBorderColor = '#6d28d9';
 
 
 
@@ -102,7 +102,8 @@ class Nav extends React.Component {
         let navStyles = {
             root: {
                 height: 'auto',
-                minHeight: mHeight,
+                //minHeight: mHeight,
+                minHeight: 'auto',
                 width: 'auto',
                 paddingTop: topPad + 'px',
                 backgroundColor: isStyled ? defaultStyledBgColor : 'transparent',
