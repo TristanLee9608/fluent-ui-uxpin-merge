@@ -100,17 +100,15 @@ class Nav extends React.Component {
         let mHeight = this.props.controlHeight > 0 ? this.props.controlHeight : 1;
 
         let navStyles = {
-            overrides={
-                root: {
-                    textcolor: '#ffffff', 
-                    height: 'auto',
-                    minHeight: mHeight,
-                    //minHeight: 'auto',
-                    width: 'auto',
-                    paddingTop: topPad + 'px',
-                    backgroundColor: isStyled ? defaultStyledBgColor : 'transparent',
-                    borderRight: isStyled ? "1px solid " + defaultStyledBorderColor : 'none',
-                }
+            root: {
+                textcolor: '#ffffff', 
+                height: 'auto',
+                minHeight: mHeight,
+                //minHeight: 'auto',
+                width: 'auto',
+                paddingTop: topPad + 'px',
+                backgroundColor: isStyled ? defaultStyledBgColor : 'transparent',
+                borderRight: isStyled ? "1px solid " + defaultStyledBorderColor : 'none',
             }
         };
 
