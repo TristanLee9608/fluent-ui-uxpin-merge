@@ -10,10 +10,16 @@ export const UxpColors = {
 
     //******  Semantic Colors  ****** 
     // A few key semantic colors
+    /*
     info: '#0078d4',                //MS themePrimary
     infoText: '#000000',           //Black,
     infoBackground: '#eff6fc',      //MS themeLighterAlt
     infoBackgroundHover: '#deecf9',      //MS themeLighter
+    */
+    info: '#ffffff',                //MS themePrimary
+    infoText: '#ffffff',           //Black,
+    infoBackground: '#ffffff',      //MS themeLighterAlt
+    infoBackgroundHover: '#ffffff',      //MS themeLighter
 
     success: '#107c10',             //MS green
     successText: '#000000',           //White
