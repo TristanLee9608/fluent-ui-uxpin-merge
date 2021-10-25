@@ -18,13 +18,13 @@ export const UxpPersonaData = {
      */
     personaAmaya: {
         key: "person01",
-        imageUrl: "https://raw.githubusercontent.com/uxpin-merge/fluent-ui-uxpin-merge/master/src/components/_helpers/_images/person01.jpg",
+        imageUrl: "https://avatars.githubusercontent.com/u/45743891?s=88&v=4",
         imageInitials: "AD",
-        text: "Amaya Davani",
+        text: "Positive-Yun",
         presence: 4, //"dnd",
         initialsColor: 17, //"lightRed",
-        email: "adavani@company.com",
-        role: "Sr. Software Developer",
+        email: "yun@tangunsoft.com",
+        role: "매니저",
         token: "person01",
     },
 
@@ -34,13 +34,13 @@ export const UxpPersonaData = {
      */
     personaMarcus: {
         key: "person02",
-        imageUrl: "https://raw.githubusercontent.com/uxpin-merge/fluent-ui-uxpin-merge/master/src/components/_helpers/_images/person02.jpg",
+        imageUrl: "https://avatars.githubusercontent.com/u/45954968?s=88&v=4",
         imageInitials: "MJ",
-        text: "Marcus Jones",
+        text: "Wooseong Kim",
         presence: 1,
         initialsColor: 17,
-        email: "jmones@company.com",
-        role: "Business Analyst",
+        email: "wskim@tangunsoft.com",
+        role: "부서장",
         token: "person02",
     },
 
@@ -50,13 +50,13 @@ export const UxpPersonaData = {
      */
     personaJavier: {
         key: "person03",
-        imageUrl: "https://raw.githubusercontent.com/uxpin-merge/fluent-ui-uxpin-merge/master/src/components/_helpers/_images/person03.jpg",
+        imageUrl: "https://avatars.githubusercontent.com/u/47808006?s=88&v=4",
         imageInitials: "JR",
-        text: "Javier Rubio",
+        text: "JamesJeongTangun",
         presence: 6, //"busy",
         initialsColor: 2, //"warmGray",
-        email: "jrubio@company.com",
-        role: "Application Support Analyst",
+        email: "isjeong@tangunsoft.com",
+        role: "매니저",
         token: "person03",
     },
 
@@ -66,13 +66,13 @@ export const UxpPersonaData = {
      */
     personaSydney: {
         key: "person04",
-        imageUrl: "https://raw.githubusercontent.com/uxpin-merge/fluent-ui-uxpin-merge/master/src/components/_helpers/_images/person04.jpg",
+        imageUrl: "https://avatars.githubusercontent.com/u/47909442?s=88&v=4",
         imageInitials: "SC",
-        text: "Sydney Coleman",
+        text: "Uk Lee",
         presence: 2, //"online",
         initialsColor: 4, //"lightGreen",
-        email: "scoleman@company.com",
-        role: "Financial Analyst II",
+        email: "uklee@tangunsoft.com",
+        role: "매니저",
         token: "person04",
     },
 
@@ -82,13 +82,13 @@ export const UxpPersonaData = {
     */
     personaJohar: {
         key: "person05",
-        imageUrl: "https://raw.githubusercontent.com/uxpin-merge/fluent-ui-uxpin-merge/master/src/components/_helpers/_images/person05.jpg",
+        imageUrl: "https://avatars.githubusercontent.com/u/48049695?s=88&v=4",
         imageInitials: "JA",
-        text: "Johar Ahuja",
+        text: "Scarlett",
         presence: 3, // "away",
         initialsColor: 12, //"orange",
-        email: "jahuja@company.com",
-        role: "Data Center Support Specialist",
+        email: "scarlett@tangunsoft.com",
+        role: "매니저",
         token: "person05",
     },
 
@@ -98,13 +98,13 @@ export const UxpPersonaData = {
      */
     personaMelanie: {
         key: "person06",
-        imageUrl: "https://raw.githubusercontent.com/uxpin-merge/fluent-ui-uxpin-merge/master/src/components/_helpers/_images/person06.jpg",
+        imageUrl: "https://avatars.githubusercontent.com/u/48201799?s=88&v=4",
         imageInitials: "MF",
-        text: "Melanie Foote",
+        text: "ChulHo-Kim",
         presence: 2, //"online",
         initialsColor: 8, // "blue",
-        email: "mfoote@company.com",
-        role: "Marketing Promotions Specialist",
+        email: "kch@tangunsoft.com",
+        role: "매니저",
         token: "person06",
     },
 
@@ -114,13 +114,13 @@ export const UxpPersonaData = {
      */
     personaJayden: {
         key: "person07",
-        imageUrl: "https://raw.githubusercontent.com/uxpin-merge/fluent-ui-uxpin-merge/master/src/components/_helpers/_images/person07.jpg",
+        imageUrl: "https://avatars.githubusercontent.com/u/77254496?s=88&v=4",
         imageInitials: "JH",
-        text: "Jayden Harris",
+        text: "unseong-choe",
         presence: 2,
         initialsColor: 9,
-        email: "jharris@company.com",
-        role: "Product Marketing Manager",
+        email: "unseong@tangunsoft.com",
+        role: "매니저",
         token: "person07",
     },
 
@@ -130,13 +130,13 @@ export const UxpPersonaData = {
      */
     personaGabriel: {
         key: "person08",
-        imageUrl: "https://raw.githubusercontent.com/uxpin-merge/fluent-ui-uxpin-merge/master/src/components/_helpers/_images/person08.jpg",
+        imageUrl: "https://avatars.githubusercontent.com/u/85478917?s=88&v=4",
         imageInitials: "GM",
-        text: "Gabriel Martinez",
+        text: "Jamessunglee",
         presence: 6, //"busy",
         initialsColor: 2, //"darkBlue",
-        email: "gmartinez@company.com",
-        role: "Marketing Research Associate",
+        email: "james.lee@tangunsoft.com",
+        role: "매니저",
         token: "person08",
     },
 
@@ -146,13 +146,13 @@ export const UxpPersonaData = {
      */
     personaCameron: {
         key: "person09",
-        imageUrl: "https://raw.githubusercontent.com/uxpin-merge/fluent-ui-uxpin-merge/master/src/components/_helpers/_images/person09.jpg",
+        imageUrl: "https://avatars.githubusercontent.com/u/86947067?s=88&v=4",
         imageInitials: "CT",
-        text: "Cameron Thomas",
+        text: "subinia",
         presence: 2,
         initialsColor: 19,
-        email: "cthomas@company.com",
-        role: "Information Systems Director",
+        email: "subin0614@tangunsoft.com",
+        role: "매니저",
         token: "person09",
     },
 
