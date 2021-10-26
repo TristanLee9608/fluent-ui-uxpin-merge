@@ -147,7 +147,7 @@ const setIconMargin = (direction, buttonSize, label) => {
           return `${sizes.s}px ${sizes.s}px 0 0 `;
         case 'm':
         default:
-          return `0 ${sizes.xs}px 0 0`;
+          return `0 30px 0 0`;
       }
     } else {
       switch (buttonSize) {
@@ -165,7 +165,7 @@ const setIconMargin = (direction, buttonSize, label) => {
           return `${sizes.s}px 0 0 ${sizes.m}px`;
         case 'm':
         default:
-          return `0 0 0 ${sizes.xs}px`;
+          return `0 0 0 30px`;
       }
     }
   } else if (!label[1] || label[1].length === 0) {
@@ -184,7 +184,7 @@ const setIconMargin = (direction, buttonSize, label) => {
         return `${sizes.xl * 1.33}px`;
       case 'm':
       default:
-        return `${sizes.xs / 3}px`;
+        return `30px`;
     }
   }
 };
