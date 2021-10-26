@@ -89,14 +89,16 @@ const borderFocusSelector = (type) => {
       return colors.blue.base;
     case 'secondary':
       return colors.blue.light5;
-    case 'triary':
+    case 'teriary':
       return colors.blue.light10;
     case 'quaternary':
       return colors.blue.light15;
     case 'quinary':
-      return colors.blue.light30
-    default:
+      return colors.blue.light30;
+    case 'senary':
       return colors.blue.lightPale;
+    default:
+      return colors.blue.dark30;
   }
 };
 
