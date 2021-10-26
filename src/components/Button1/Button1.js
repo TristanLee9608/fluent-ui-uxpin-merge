@@ -24,17 +24,17 @@ class Button extends React.Component {
 
     let iconProps = { iconName: this.props.iconName }
 
-    let styles = {};
+    var color = UxpColors.getHexFromHexOrToken(this.props.bgColor);
+    if (!color)
+      color = 'transparent';
+
+    let styles = {color};
 
     if (this.props.iconPosition === posEnd) {
       styles.flexContainer = {
         flexDirection: 'row-reverse'
       }
     }
-
-    var color = UxpColors.getHexFromHexOrToken(this.props.bgColor);
-    if (!color)
-      color = 'transparent';
 
     const tooltipId = _.uniqueId('tooltip_');
     const ttProps = {
