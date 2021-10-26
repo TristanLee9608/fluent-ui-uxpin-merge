@@ -14,45 +14,51 @@ const backgroundSelector = (type, mode) => {
       case 'primary':
         return colors.blue.base;
       case 'secondary':
-        return colors.silver.base;
-      case 'success':
-        return colors.success;
-      case 'error':
-        return colors.error;
-      case 'warning':
-        return colors.warning;
+        return colors.blue.light5;
+      case 'third':
+        return colors.blue.light10;
+      case 'forth':
+        return colors.blue.light15;
+      case 'fifth':
+        return colors.blue.light30;
+      case 'sixth':
+        return colors.blue.lightPale;
       default:
         return colors.blue.base;
     }
   } else if (mode === 'active') {
     switch (type) {
       case 'primary':
-        return colors.active.primary;
+        return colors.blue.base;
       case 'secondary':
-        return colors.active.secondary;
-      case 'success':
-        return colors.active.success;
-      case 'error':
-        return colors.active.error;
-      case 'warning':
-        return colors.active.warning;
+        return colors.blue.light5;
+      case 'third':
+        return colors.blue.light10;
+      case 'forth':
+        return colors.blue.light15;
+      case 'fifth':
+        return colors.blue.light30;
+      case 'sixth':
+        return colors.blue.lightPale;
       default:
-        return colors.active.default;
+        return colors.blue.base;
     }
   } else if (mode === 'hover') {
     switch (type) {
       case 'primary':
-        return colors.hover.primary;
+        return colors.blue.base;
       case 'secondary':
-        return colors.hover.secondary;
-      case 'success':
-        return colors.hover.success;
-      case 'error':
-        return colors.hover.error;
-      case 'warning':
-        return colors.hover.warning;
+        return colors.blue.light5;
+      case 'third':
+        return colors.blue.light10;
+      case 'forth':
+        return colors.blue.light15;
+      case 'fifth':
+        return colors.blue.light30;
+      case 'sixth':
+        return colors.blue.lightPale;
       default:
-        return colors.hover.default;
+        return colors.blue.base;
     }
   }
 };
@@ -64,11 +70,11 @@ const shadowSelector = (type) => {
       return shadow.primary;
     case 'secondary':
       return shadow.box;
-    case 'success':
+    case 'third':
       return shadow.success;
-    case 'error':
+    case 'forth':
       return shadow.error;
-    case 'warning':
+    case 'fifth':
       return shadow.warning;
     default:
       return shadow.default;
@@ -77,16 +83,20 @@ const shadowSelector = (type) => {
 
 const borderFocusSelector = (type) => {
   switch (type) {
-    case 'default':
-      return colors.blue.dark15;
-    case 'success':
-      return colors.green.dark15;
-    case 'error':
-      return colors.red.dark15;
-    case 'warning':
-      return colors.orange.dark15;
+    case 'Default':
+      return colors.blue.base;
+    case 'secondary':
+      return colors.blue.light5;
+    case 'third':
+      return colors.blue.light10;
+    case 'forth':
+      return colors.blue.light15;
+    case 'fifth':
+      return colors.blue.light30;
+    case 'sixth':
+      return colors.blue.lightPale;
     default:
-      return colors.blue.dark15;
+      return colors.blue.base;
   }
 };
 
@@ -312,7 +322,7 @@ const modes = (mode, type) => {
 
   return css`
       background-color: ${backgroundSelector(type)};
-      color: ${type !== 'secondary' ? 'white' : colors.gray.base};
+      color: ${type !== 'sixth' ? 'white' : colors.blue.darkf};
     `;
 };
 
