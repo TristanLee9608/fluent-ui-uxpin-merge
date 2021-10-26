@@ -15,7 +15,7 @@ const backgroundSelector = (type, mode) => {
         return colors.blue.base;
       case 'secondary':
         return colors.blue.light5;
-      case 'triary':
+      case 'teriary':
         return colors.blue.light10;
       case 'quaternary':
         return colors.blue.light15;
@@ -32,7 +32,7 @@ const backgroundSelector = (type, mode) => {
         return colors.blue.base;
       case 'secondary':
         return colors.blue.light5;
-      case 'triary':
+      case 'teriary':
         return colors.blue.light10;
       case 'quaternary':
         return colors.blue.light15;
@@ -49,7 +49,7 @@ const backgroundSelector = (type, mode) => {
         return colors.blue.base;
       case 'secondary':
         return colors.blue.light5;
-      case 'triary':
+      case 'teriary':
         return colors.blue.light10;
       case 'quaternary':
         return colors.blue.light15;
@@ -64,6 +64,7 @@ const backgroundSelector = (type, mode) => {
 };
 
 /* Selects the right shadow for button type */
+/*
 const shadowSelector = (type) => {
   switch (type) {
     case 'primary':
@@ -80,6 +81,7 @@ const shadowSelector = (type) => {
       return shadow.default;
   }
 };
+*/
 
 const borderFocusSelector = (type) => {
   switch (type) {
@@ -320,7 +322,7 @@ const modes = (mode, type) => {
 
   return css`
       background-color: ${backgroundSelector(type)};
-      color: ${type !== 'secondary' ? 'white' : colors.gray.base};
+      color: ${type !== 'senary' ? 'white' : colors.blue.darkf};
     `;
 };
 
