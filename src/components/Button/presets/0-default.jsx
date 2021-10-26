@@ -10,6 +10,6 @@ export default (
     stretched
     type="primary"
     uxpId="button">
-    Button
+    Let's Merge!
   </Button>
 );
