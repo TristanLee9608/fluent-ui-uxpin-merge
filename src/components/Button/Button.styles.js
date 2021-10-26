@@ -15,11 +15,11 @@ const backgroundSelector = (type, mode) => {
         return colors.blue.base;
       case 'secondary':
         return colors.silver.base;
-      case 'success':
+      case 'teriary':
         return colors.success;
-      case 'error':
+      case 'quaternary':
         return colors.error;
-      case 'warning':
+      case 'quinary':
         return colors.warning;
       default:
         return colors.blue.base;
@@ -30,11 +30,11 @@ const backgroundSelector = (type, mode) => {
         return colors.active.primary;
       case 'secondary':
         return colors.active.secondary;
-      case 'success':
+      case 'teriary':
         return colors.active.success;
-      case 'error':
+      case 'quaternary':
         return colors.active.error;
-      case 'warning':
+      case 'quinary':
         return colors.active.warning;
       default:
         return colors.active.default;
@@ -45,11 +45,11 @@ const backgroundSelector = (type, mode) => {
         return colors.hover.primary;
       case 'secondary':
         return colors.hover.secondary;
-      case 'success':
+      case 'teriary':
         return colors.hover.success;
-      case 'error':
+      case 'quaternary':
         return colors.hover.error;
-      case 'warning':
+      case 'quinary':
         return colors.hover.warning;
       default:
         return colors.hover.default;
@@ -64,11 +64,11 @@ const shadowSelector = (type) => {
       return shadow.primary;
     case 'secondary':
       return shadow.box;
-    case 'success':
+    case 'teriary':
       return shadow.success;
-    case 'error':
+    case 'quaternary':
       return shadow.error;
-    case 'warning':
+    case 'quinary':
       return shadow.warning;
     default:
       return shadow.default;
@@ -77,16 +77,18 @@ const shadowSelector = (type) => {
 
 const borderFocusSelector = (type) => {
   switch (type) {
-    case 'default':
-      return colors.blue.dark15;
-    case 'success':
-      return colors.green.dark15;
-    case 'error':
-      return colors.red.dark15;
-    case 'warning':
-      return colors.orange.dark15;
+    case 'primary':
+      return colors.blue.base;
+    case 'secondary':
+      return colors.blue.light5;
+    case 'triary':
+      return colors.blue.light10;
+    case 'quaternary':
+      return colors.blue.light15;
+    case 'quinary':
+      return colors.blue.light30
     default:
-      return colors.blue.dark15;
+      return colors.blue.lightPale;
   }
 };
 

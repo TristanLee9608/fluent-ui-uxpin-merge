@@ -1,15 +1,17 @@
 {
     "blue": {
-        "base": "#006cff",
+        "base": "#1E3175",
         "dark5": "0061e6",
         "dark10": "0056cc",
         "dark15": "004cb3",
         "dark30": "002b66",
-        "light5": "#1a7bff",
-        "light10": "#3389ff",
-        "light15": "#4d98ff",
-        "light30": "#99c4ff",
-        "lightPale": "#f0f6ff"
+        "light5": "#244BA6",
+        "light10": "#6090D6",
+        "light15": "#2589DB",
+        "light30": "#67ADE6",
+        "lightPale": "#D7E4F7",
+        "white": "#FFFFFF",
+        "darkf": "#1F305C"
     },
     "silver": {
         "base": "#f3f3f3",
