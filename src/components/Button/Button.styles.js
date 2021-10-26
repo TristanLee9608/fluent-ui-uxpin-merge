@@ -14,91 +14,79 @@ const backgroundSelector = (type, mode) => {
       case 'primary':
         return colors.blue.base;
       case 'secondary':
-        return colors.blue.light5;
-      case 'teriary':
-        return colors.blue.light10;
-      case 'quaternary':
-        return colors.blue.light15;
-      case 'quinary':
-        return colors.blue.light30;
-      case 'senary':
-        return colors.blue.lightPale;
+        return colors.silver.base;
+      case 'success':
+        return colors.success;
+      case 'error':
+        return colors.error;
+      case 'warning':
+        return colors.warning;
       default:
-        return colors.blue.dark30;
+        return colors.blue.base;
     }
   } else if (mode === 'active') {
     switch (type) {
       case 'primary':
-        return colors.blue.base;
+        return colors.active.primary;
       case 'secondary':
-        return colors.blue.light5;
-      case 'teriary':
-        return colors.blue.light10;
-      case 'quaternary':
-        return colors.blue.light15;
-      case 'quinary':
-        return colors.blue.light30;
-      case 'senary':
-        return colors.blue.lightPale;
+        return colors.active.secondary;
+      case 'success':
+        return colors.active.success;
+      case 'error':
+        return colors.active.error;
+      case 'warning':
+        return colors.active.warning;
       default:
-        return colors.blue.dark30;
+        return colors.active.default;
     }
   } else if (mode === 'hover') {
     switch (type) {
       case 'primary':
-        return colors.blue.base;
+        return colors.hover.primary;
       case 'secondary':
-        return colors.blue.light5;
-      case 'teriary':
-        return colors.blue.light10;
-      case 'quaternary':
-        return colors.blue.light15;
-      case 'quinary':
-        return colors.blue.light30;
-      case 'senary':
-        return colors.blue.lightPale;
+        return colors.hover.secondary;
+      case 'success':
+        return colors.hover.success;
+      case 'error':
+        return colors.hover.error;
+      case 'warning':
+        return colors.hover.warning;
       default:
-        return colors.blue.dark30;
+        return colors.hover.default;
     }
   }
 };
 
 /* Selects the right shadow for button type */
-/*
 const shadowSelector = (type) => {
   switch (type) {
     case 'primary':
       return shadow.primary;
     case 'secondary':
       return shadow.box;
-    case 'teriary':
+    case 'success':
       return shadow.success;
-    case 'quaternary':
+    case 'error':
       return shadow.error;
-    case 'quinary':
+    case 'warning':
       return shadow.warning;
     default:
       return shadow.default;
   }
 };
-*/
 
 const borderFocusSelector = (type) => {
   switch (type) {
-    case 'primary':
-      return colors.blue.base;
-    case 'secondary':
-      return colors.blue.light5;
-    case 'teriary':
-      return colors.blue.light10;
-    case 'quaternary':
-      return colors.blue.light15;
-    case 'quinary':
-      return colors.blue.light30;
-    case 'senary':
-      return colors.blue.lightPale;
+    case 'default':
+      return colors.blue.dark15;
+    case 'success':
+      return colors.green.dark15;
+    case 'error':
+      return colors.red.dark15;
+    case 'warning':
+      return colors.orange.dark15;
     default:
-      return colors.blue.dark30;
+      return colors.blue.dark15;
   }
 };
 
@@ -324,7 +312,7 @@ const modes = (mode, type) => {
 
   return css`
       background-color: ${backgroundSelector(type)};
-      color: ${type !== 'senary' ? 'white' : colors.blue.darkf};
+      color: ${type !== 'secondary' ? 'white' : colors.gray.base};
     `;
 };
 
