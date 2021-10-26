@@ -101,7 +101,6 @@ class Nav extends React.Component {
 
         let navStyles = {
             root: {
-                textcolor: '#ffffff', 
                 height: 'auto',
                 minHeight: mHeight,
                 //minHeight: 'auto',
