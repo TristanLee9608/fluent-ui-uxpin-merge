@@ -13,7 +13,7 @@ const Button = (props) => (
 Button.propTypes = {
   onClick: PropTypes.func,
   disabled: PropTypes.bool,
-  type: PropTypes.oneOf(['primary', 'secondary', 'teriary', 'quaternary', 'quinary']),
+  type: PropTypes.oneOf(['primary', 'secondary', 'teriary', 'quaternary', 'quinary', 'senary']),
   mode: PropTypes.oneOf(['filled', 'ghost', 'minimal', 'flat']),
   /** @uxpinignoreprop */
   title: PropTypes.string,

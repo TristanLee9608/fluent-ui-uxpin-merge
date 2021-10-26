@@ -14,45 +14,51 @@ const backgroundSelector = (type, mode) => {
       case 'primary':
         return colors.blue.base;
       case 'secondary':
-        return colors.silver.base;
-      case 'teriary':
-        return colors.success;
+        return colors.blue.light5;
+      case 'triary':
+        return colors.blue.light10;
       case 'quaternary':
-        return colors.error;
+        return colors.blue.light15;
       case 'quinary':
-        return colors.warning;
+        return colors.blue.light30;
+      case 'senary':
+        return colors.blue.lightPale;
       default:
-        return colors.blue.base;
+        return colors.blue.dark30;
     }
   } else if (mode === 'active') {
     switch (type) {
       case 'primary':
-        return colors.active.primary;
+        return colors.blue.base;
       case 'secondary':
-        return colors.active.secondary;
-      case 'teriary':
-        return colors.active.success;
+        return colors.blue.light5;
+      case 'triary':
+        return colors.blue.light10;
       case 'quaternary':
-        return colors.active.error;
+        return colors.blue.light15;
       case 'quinary':
-        return colors.active.warning;
+        return colors.blue.light30;
+      case 'senary':
+        return colors.blue.lightPale;
       default:
-        return colors.active.default;
+        return colors.blue.dark30;
     }
   } else if (mode === 'hover') {
     switch (type) {
       case 'primary':
-        return colors.hover.primary;
+        return colors.blue.base;
       case 'secondary':
-        return colors.hover.secondary;
-      case 'teriary':
-        return colors.hover.success;
+        return colors.blue.light5;
+      case 'triary':
+        return colors.blue.light10;
       case 'quaternary':
-        return colors.hover.error;
+        return colors.blue.light15;
       case 'quinary':
-        return colors.hover.warning;
+        return colors.blue.light30;
+      case 'senary':
+        return colors.blue.lightPale;
       default:
-        return colors.hover.default;
+        return colors.blue.dark30;
     }
   }
 };
