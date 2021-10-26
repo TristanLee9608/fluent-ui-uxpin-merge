@@ -2,6 +2,7 @@ import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import { TextField as FTextField } from '@fluentui/react/lib/TextField';
 import { Position } from '@fluentui/react/lib/utilities/positioning';
+import SpinButton from '../SpinButton/SpinButton';
 
 const posTop = "top";
 const posStart = "start";
@@ -15,7 +16,7 @@ const autocompleteHintNone = "off";
 const autocompleteHintPwd = "new-password";
 
 
-class TextField extends React.Component {
+  class TextField extends React.Component {
 
   constructor(props) {
     super(props);
@@ -148,8 +149,8 @@ TextField.propTypes = {
      * @uxpindescription Whether the label appears on the left or on top
      * @uxpinpropname Position
      * */
-    labelDisplay: PropTypes.oneOf([posStart, posTop, posEnd]),
-    
+  labelDisplay: PropTypes.oneOf([posStart, posTop, posEnd]),
+
   /**
    * @uxpindescription To display the 'required' flag on the label
    * @uxpinpropname Required

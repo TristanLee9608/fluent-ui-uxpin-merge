@@ -4,5 +4,5 @@ import TextField from '../TextField';
 
 
 export default (
-    <TextField uxpId="textfield1" />
+    <TextField uxpId="textfield1" borderType="framed" style={{textAlign: 'left'}} />
 );
