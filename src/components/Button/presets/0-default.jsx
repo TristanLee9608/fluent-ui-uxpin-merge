@@ -4,7 +4,7 @@ import Button from '../Button';
 
 export default (
   <Button
-    icon={<Icon icon="TickerSvg" size="s" uxpId="button2" />}
+    //icon={<Icon icon="TickerSvg" size="s" uxpId="button2" />}
     mode="filled"
     size="m"
     stretched
