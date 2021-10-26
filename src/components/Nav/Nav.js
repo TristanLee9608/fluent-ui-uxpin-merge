@@ -103,7 +103,6 @@ class Nav extends React.Component {
             root: {
                 height: 'auto',
                 minHeight: mHeight,
-                //minHeight: 'auto',
                 width: 'auto',
                 paddingTop: topPad + 'px',
                 backgroundColor: isStyled ? defaultStyledBgColor : 'transparent',

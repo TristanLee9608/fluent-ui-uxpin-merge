@@ -129,6 +129,7 @@ class Breadcrumb extends React.Component {
             display: 'inline-block',
             width: 'min-content',
             height: 'min-content',
+            fontSize: '14pt',
             selectors: {
                '& .ms-Breadcrumb-list': {
                   height: 'min-content',
