@@ -47,10 +47,13 @@ class Checkbox extends React.Component {
   }
 
   render() {
-
+    
+    let styles = {width: '16pt', height: '16pt'};
+    
     return (
       <FCheckbox
         {...this.props}
+        styles={styles}
         checked={this.state.isChecked}
         onChange={(e, v) => { this._onSelectionChange(v); }}  //We only catch the new value
       />

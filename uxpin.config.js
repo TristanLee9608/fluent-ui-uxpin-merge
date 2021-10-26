@@ -43,6 +43,7 @@ module.exports = {
         include: [
           //'src/components/ActionButton/ActionButton.js',
           'src/components/Button/Button.js',
+          'src/components/Button/Button1.js',
           //'src/components/CommandButton/CommandButton.js',
           //'src/components/CompoundButton/CompoundButton.js',
           //'src/components/SplitButton/SplitButton.js',
