@@ -13,7 +13,7 @@ const Button = (props) => (
 Button.propTypes = {
   onClick: PropTypes.func,
   disabled: PropTypes.bool,
-  type: PropTypes.oneOf(['primary', 'secondary', 'success', 'error', 'warning']),
+  type: PropTypes.oneOf(['primary', 'secondary', 'teriary', 'quaternary', 'quinary']),
   mode: PropTypes.oneOf(['filled', 'ghost', 'minimal', 'flat']),
   /** @uxpinignoreprop */
   title: PropTypes.string,
@@ -23,8 +23,9 @@ Button.propTypes = {
    * @uxpinpropname Label
    */
   children: PropTypes.string,
-  icon: PropTypes.node,
-  iconDirection: PropTypes.oneOf(['left', 'right']),
+  //icon: PropTypes.node,
+  //iconDirection: PropTypes.oneOf(['left', 'right']),
+  font: PropTypes.oneOf(['White','Darkf']),
   size: PropTypes.oneOf(['xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl']),
   stretched: PropTypes.bool,
 };
