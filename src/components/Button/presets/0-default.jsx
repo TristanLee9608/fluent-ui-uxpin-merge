@@ -9,8 +9,7 @@ export default (
     size="m"
     stretched
     type="primary"
-    uxpId="button"
-    height="30px">
+    uxpId="button">
     Button
   </Button>
 );
