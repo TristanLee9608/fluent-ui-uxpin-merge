@@ -322,7 +322,7 @@ const modes = (mode, type) => {
 
   return css`
       background-color: ${backgroundSelector(type)};
-      color: ${type !== 'senary' ? 'white' : colors.blue.darkf};
+      color: ${type !== 'secondary' ? 'white' : colors.blue.darkf};
     `;
 };
 

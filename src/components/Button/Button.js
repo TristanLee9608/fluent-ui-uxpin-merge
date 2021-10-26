@@ -25,7 +25,6 @@ Button.propTypes = {
   children: PropTypes.string,
   //icon: PropTypes.node,
   //iconDirection: PropTypes.oneOf(['left', 'right']),
-  font: PropTypes.oneOf(['White','Darkf']),
   size: PropTypes.oneOf(['xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl']),
   stretched: PropTypes.bool,
 };
