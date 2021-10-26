@@ -9,7 +9,7 @@ import Button from '../Button1';
  */
 
 export default (
-  <Button uxpId="button1" style={{width: '100%', height: '30px', backgroundColor: '#1E3175', color: '#FFFFFF'}} />
+  <Button uxpId="button1" style={{width: '100%', height: '30px', color: '#FFFFFF'}} />
 );
 
 /*
