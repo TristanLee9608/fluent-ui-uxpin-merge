@@ -1,8 +1,11 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import { TextField as FTextField } from '@fluentui/react/lib/TextField';
+import { Position } from '@fluentui/react/lib/utilities/positioning';
 
-
+const posTop = "top";
+const posStart = "start";
+const posEnd = "end";
 
 const borderFramed = "framed";
 const borderUnderlined = "underlined";
@@ -102,11 +105,16 @@ class TextField extends React.Component {
     let showAutoComplete = this.props.isPassword ? autocompleteHintPwd :
       autocompleteHintNone;
 
+    let position = this.props.labelDisplay === posEnd ? Position.end :
+      this.props.labelDisplay === posTop ? Position.top :
+          Position.start;
+
     return (
       <FTextField
         {...this.props}
         value={textVal}
         iconProps={{ iconName: this.props.icon }}
+        labelPosition={position}
         prefix={prefix}
         suffix={suffix}
         type={pwdType}
@@ -136,6 +144,12 @@ TextField.propTypes = {
    * */
   label: PropTypes.string,
 
+   /**
+     * @uxpindescription Whether the label appears on the left or on top
+     * @uxpinpropname Position
+     * */
+    labelDisplay: PropTypes.oneOf([posStart, posTop, posEnd]),
+    
   /**
    * @uxpindescription To display the 'required' flag on the label
    * @uxpinpropname Required
