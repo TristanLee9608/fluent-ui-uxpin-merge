@@ -42,7 +42,7 @@ module.exports = {
         name: 'Buttons',
         include: [
           //'src/components/ActionButton/ActionButton.js',
-          'src/components/Button/Button.js',
+          //'src/components/Button/Button.js',
           'src/components/Button1/Button1.js',
           //'src/components/CommandButton/CommandButton.js',
           //'src/components/CompoundButton/CompoundButton.js',
