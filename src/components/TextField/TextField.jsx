@@ -29,7 +29,7 @@ export default class TextField extends PureComponent {
   };
   render() {
     return (
-    <StyledInput {...this.props} type="text"><propTypes className="label"></propTypes></StyledInput>
+    <StyledInput {...this.props} propTypes:label type="text"/>
     );
   }
 }
