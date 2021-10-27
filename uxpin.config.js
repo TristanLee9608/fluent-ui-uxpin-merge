@@ -67,7 +67,7 @@ module.exports = {
           //'src/components/Slider/Slider.js',
           'src/components/SpinButton/SpinButton.js',
           //'src/components/TextArea/TextArea.js',
-          'src/components/TextField/TextField.js',
+          'src/components/TextField/TextField.jsx',
           //'src/components/Toggle/Toggle.js',
         ],
       },
