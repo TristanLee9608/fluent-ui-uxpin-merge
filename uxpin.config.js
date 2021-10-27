@@ -34,7 +34,7 @@ module.exports = {
           'src/components/Link/Link.js',
           //'src/components/Separator/Separator.js',
           //'src/components/StatusSet/StatusSet.js',
-          //'src/components/Text/Text.js',
+          'src/components/Text/Text.js',
           //'src/components/Timestamp/Timestamp.js',
         ],
       },
