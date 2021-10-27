@@ -1,7 +1,6 @@
 import styled from '@emotion/styled';
 import typography from '../../styles/typography.json';
 import sizes from '../../styles/sizes.json';
-import colors from '../../styles/colors.json';
 
 const getWidth = (width) => {
   if (width === 'stretched') {
