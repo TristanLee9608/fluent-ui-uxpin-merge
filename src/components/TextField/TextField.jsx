@@ -30,7 +30,7 @@ export default class TextField extends PureComponent {
 
   render() {
     return (
-    <StyledInput {...this.props} labelPosition='start' type="text" />
+    <StyledInput {...this.props} type="text">label</StyledInput>
     );
   }
 }
