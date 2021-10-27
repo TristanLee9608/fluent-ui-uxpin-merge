@@ -15,7 +15,6 @@ const getWidth = (width) => {
 };
 
 export default styled.input`
-    label: ${label};
     border-width: 0px;
     padding: 3px;
     border: 1px solid black;
