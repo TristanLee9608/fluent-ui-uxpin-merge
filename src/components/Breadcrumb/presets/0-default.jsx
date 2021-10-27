@@ -4,5 +4,5 @@ import Breadcrumb from '../Breadcrumb';
 
 
 export default (
-   <Breadcrumb uxpId="breadcrumb1" size='14pt' />
+   <Breadcrumb uxpId="breadcrumb1" fontSize='14pt' />
 );
