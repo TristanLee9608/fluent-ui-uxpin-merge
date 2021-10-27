@@ -4,7 +4,7 @@ import StyledInput from './TextField.styles';
 import { Position } from '@fluentui/react/lib/utilities/positioning';
 
 export default class TextField extends PureComponent {
-  
+
   static propTypes = {
     label: PropTypes.string,
     /**
@@ -27,10 +27,9 @@ export default class TextField extends PureComponent {
     value: '',
     placeholder: 'Enter some text',
   };
-
   render() {
     return (
-    <StyledInput {...this.props} type="text">label</StyledInput>
+    <StyledInput {...this.props} type="text"><propTypes className="label"></propTypes></StyledInput>
     );
   }
 }
