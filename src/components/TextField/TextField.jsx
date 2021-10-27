@@ -1,14 +1,10 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import StyledInput from './TextField.styles';
-import { Position } from '@fluentui/react/lib/utilities/positioning';
+
 
 export default class TextField extends PureComponent {
-
   static propTypes = {
-    /**
-     * @uxpinbind onChange 0.target.label
-     */
     label: PropTypes.string,
     width: PropTypes.oneOf(['stretched', 'auto']),
     onChange: PropTypes.func,
