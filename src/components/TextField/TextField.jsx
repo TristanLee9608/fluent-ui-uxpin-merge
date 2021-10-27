@@ -6,12 +6,10 @@ import { Position } from '@fluentui/react/lib/utilities/positioning';
 export default class TextField extends PureComponent {
 
   static propTypes = {
-    label: PropTypes.string,
     /**
-     * @uxpindescription Description label of the SpinButton
-     * @uxpinpropname Label
-     * @uxpincontroltype textfield(2)
-     * */
+     * @uxpinbind onChange 0.target.label
+     */
+    label: PropTypes.string,
     width: PropTypes.oneOf(['stretched', 'auto']),
     onChange: PropTypes.func,
     /**
@@ -29,7 +27,6 @@ export default class TextField extends PureComponent {
   };
   render() {
     return (
-    <propTypes className="label"></propTypes>
     <StyledInput {...this.props} type="text"/>
     );
   }
